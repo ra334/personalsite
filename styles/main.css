@@ -1,8 +1,10 @@
 @import url(./normalize.css);
 @import url(./reset.css);
-@import url(../layout/header/Header.css);
-@import url(../layout/footer/Footer.css);
-@import url(../layout/typing/Typing.css);
+@import url(./header.css);
+@import url(./content.css);
+@import url(./footer.css);
+@import url(./typing.css);
+@import url(./scrollbar.css);
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 
 
@@ -22,9 +24,45 @@ font-weight: 600; */
 body {
     font-family: "IBM Plex Mono", serif;
     font-weight: 500;
-    background-color: black;
 }
 
 .container {
     max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body.black-theme {
+    background-color: black;
+    color: white;
+}
+
+/* Стилі для білої теми */
+body.white-theme {
+    background-color: white;
+    color: black;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 3.125rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.text {
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 auto;
+}
+
+main {
+    padding: 120px 0;
+}
+
+a {
+	color: currentColor;
 }
