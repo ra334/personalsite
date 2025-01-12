@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    margin-top: 16px;
+}
+
+.header__name {
+    font-size: 1.125rem;
+}
+
+.header__settings {
+    display: flex;
+    gap: 20px;
+}
+
+.header__language {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 400;
+}
+
+.header__language-hide {
+    position: absolute;
+    top: 24px;
+    left: 0;
+    display: none;
+}
+
+.header__theme {
+
+}
+
+.header__theme-img {
+
+}
