@@ -1,0 +1,113 @@
+/* Who Am I */
+
+.whoiam {
+    margin-bottom: 50px;
+}
+
+.whoiam__text {
+    max-width: 550px;
+}
+
+/* What I Do */
+
+.whatido__text {
+    max-width: 750px;
+}
+
+.whatido__wrapper {
+    margin-top: 50px;
+}
+
+.whatido__wrapper-text {
+    max-width: 430px;
+}
+
+.whatido__technology {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+.whatido__technology-title {
+    font-weight: 600;
+    border: 1px solid currentColor;
+    padding: 10px 46px;
+}
+
+.whatido__technologies-item {
+    text-align: center;
+    line-height: 35px;
+}
+
+/* Projects */
+
+.projects {
+    margin: 70px 0;
+}
+
+.project__wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 227px;
+    width: 100%;
+}
+
+.projects__list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.project__item {
+    border: 1px solid currentColor;
+    display: flex;
+    height: 115px;
+}
+
+.project__item-title {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.project__item-line {
+    background-color: currentColor;
+    width: 1px;
+    min-height: 100%;
+}
+
+.project__item-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project__item-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 16px 0 16px 18px;
+}
+
+.project__item-text {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 20px;
+}
+
+.project__item-links {
+    display: flex;
+    margin-top: auto;
+    margin-right: 24px;
+    margin-bottom: 10px;
+    gap: 16px;
+}
+
+/* working */
+
+.working__text {
+    max-width: 751px;
+}
