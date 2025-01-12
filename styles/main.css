@@ -1,0 +1,30 @@
+@import url(./normalize.css);
+@import url(./reset.css);
+@import url(../layout/header/Header.css);
+@import url(../layout/footer/Footer.css);
+@import url(../layout/typing/Typing.css);
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+
+
+/* font-family: "IBM Plex Mono", serif;
+font-weight: 400;
+
+
+font-family: "IBM Plex Mono", serif;
+font-weight: 500;
+
+
+font-family: "IBM Plex Mono", serif;
+font-weight: 600; */
+
+  
+body {
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 500;
+    background-color: black;
+}
+
+.container {
+    max-width: 800px;
+}
