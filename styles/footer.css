@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.copyright {
+
+}
+
+.socials {
+    display: flex;
+    gap: 23px;
+}
+
+.socials__item {
+
+}
+
+.project__item-link {
+
+}
+
+.project__link-img {
+
+}
+
+.socials__link {
+
+}
+
+.socials__link-img {
+
+}
