@@ -1,0 +1,34 @@
+.typing {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.typing__text {
+    overflow: hidden;
+    border-right: .20em solid rgb(255, 255, 255);
+    white-space: nowrap;
+    max-width: 660px;
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+    color: white;
+    font-weight: 400;
+    font-size: 6.25rem;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+}
