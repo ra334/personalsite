@@ -24,15 +24,19 @@
 
 .whatido__technology {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
     margin-top: 35px;
+    justify-content: center;
 }
 
 .whatido__technology-title {
     font-weight: 600;
     border: 1px solid currentColor;
-    padding: 10px 46px;
+    padding: 10px 0;
+    text-align: center;
+    width: 180px;
 }
 
 .whatido__technologies-item {
@@ -76,7 +80,7 @@
 .project__item-line {
     background-color: currentColor;
     width: 1px;
-    min-height: 100%;
+    height: 100%;
 }
 
 .project__item-info {
