@@ -69,3 +69,10 @@
         width: 100% !important;
     }
 }
+
+@media (width <= 900px) {
+    .typing__text {
+        max-width: 330px !important;
+        font-size: 3.125rem !important;
+    }
+}
