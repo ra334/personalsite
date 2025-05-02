@@ -39,3 +39,14 @@
 .header__theme-img {
 
 }
+
+.header__mirror {
+    width: 20px;
+    height: 20px;
+}
+
+.header__mirror-link {}
+
+.header__mirror-img {
+    color: black;
+}

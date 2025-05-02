@@ -2,6 +2,15 @@ const themeElement = document.getElementById('theme')
 const themeIMG = document.getElementById('theme-img')
 const currentTheme = localStorage.getItem('theme') || 'white-theme';
 
+function changeTorImgTheme(theme) {
+	const torImg = document.getElementsByClassName('header__mirror-img')[0];
+	if (theme === 'black-theme') {
+		console.log('black-theme')
+		torImg.style.color = 'white'
+	} else {
+		torImg.style.color = 'black'
+	}
+}
 
 function setGlobalScrollbarColor(trackColor, thumbColor) {
 	const style = document.createElement('style')
@@ -21,10 +30,12 @@ function setTheme(theme) {
 		themeIMG.src = '../../public/header/sun.svg'
 		themeIMG.alt = 'moon'
 		setGlobalScrollbarColor('black', 'white')
+		changeTorImgTheme(theme)
 	} else {
 		themeIMG.src = '../../public/header/moon.svg'
 		themeIMG.alt = 'sun'
 		setGlobalScrollbarColor('white', 'black')
+		changeTorImgTheme(theme)
 	}
 }
 
